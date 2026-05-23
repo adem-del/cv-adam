@@ -317,7 +317,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 </html>
 """
 
-with open(OUT.parent / 'report.html', 'w') as f:
+with open(OUT.parent / 'index.html', 'w') as f:
     f.write(HTML_TEMPLATE)
 
 print("   ✅ report.html")
