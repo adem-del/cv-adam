@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-accent: #6366f1;
+  --color-accent-light: #a5b4fc;
+  --color-accent-dark: #4f46e5;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  @apply antialiased;
+  @apply bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100;
+}

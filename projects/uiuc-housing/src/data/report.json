@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-05-23T01:01:22.879300",
+  "summary": {
+    "total": 62,
+    "pass": 1,
+    "fail": 4,
+    "no_email": 30,
+    "already_contacted": 27
+  },
+  "promising": [
+    {
+      "platform": "Illinois Abroad",
+      "title": "Academic year sublease near the Main Quad: looking for two tenants",
+      "email": "llshi2@illinois.edu",
+      "url": "https://blogs.illinois.edu/view/208/915195345",
+      "location": "In Campusn\u00e4he",
+      "details_preview": "Illinois Abroad Housing Board Education Abroad Search Blog Home Post on the Housing Board Archive Illinois Abroad Housing Board Academic year sublease near the Main Quad: looking for two tenants Apr 14, 2026 12:45 pm by Lyndon Shi Academic Year 26-27 Fall 26 Spring 27 Looking for academic year (Fall"
+    }
+  ],
+  "filtered_out": [
+    {
+      "platform": "Illinois Abroad",
+      "title": "Fall 26' Sublease 1 Bed in 3 Bedroom Apartment / 1 Bath - All Girls - $550/month",
+      "email": "siasin2@illinois.edu",
+      "issues": [
+        "FEMALE ONLY",
+        "\u2705 1BR",
+        "KEIN FALL 2026 BEZUG (trotzdem pr\u00fcfenswert)"
+      ],
+      "location": "In Campusn\u00e4he",
+      "details_preview": "Illinois Abroad Housing Board Education Abroad Search Blog Home Post on the Housing Board Archive Illinois Abroad Housing Board Fall 26' Sublease 1 Bed in 3 Bedroom Apartment / 1 Bath - All Girls - $5"
+    },
+    {
+      "platform": "Illinois Abroad",
+      "title": "Fall 2026-Summer 2027 Sublet (Private bedroom in a 2 bed/1 bath female unit)",
+      "email": "jos5@illinois.edu",
+      "issues": [
+        "FEMALE ONLY",
+        "\u2705 2BR"
+      ],
+      "location": "In Campusn\u00e4he",
+      "details_preview": "Illinois Abroad Housing Board Education Abroad Search Blog Home Post on the Housing Board Archive Illinois Abroad Housing Board Fall 2026-Summer 2027 Sublet (Private bedroom in a 2 bed/1 bath female u"
+    },
+    {
+      "platform": "Illinois Abroad",
+      "title": "Fall 2026-2027 school year lease takeover",
+      "email": "ooloy2@illinois.edu",
+      "issues": [
+        "FEMALE ONLY",
+        "NICHT MEHRERE ZIMMER (trotzdem pr\u00fcfenswert)"
+      ],
+      "location": "In Campusn\u00e4he",
+      "details_preview": "Illinois Abroad Housing Board Education Abroad Search Blog Home Post on the Housing Board Archive Illinois Abroad Housing Board Fall 2026-2027 school year lease takeover Feb 3, 2026 9:30 am by Kareema"
+    },
+    {
+      "platform": "Illinois Abroad",
+      "title": "LOOKING TO SUBLET FOR FALL 2026 SEMESTER",
+      "email": "bipsen2@illinois.edu",
+      "issues": [
+        "FEMALE ONLY",
+        "\u2705 Mehrere Zimmer"
+      ],
+      "location": "In Campusn\u00e4he",
+      "details_preview": "Illinois Abroad Housing Board Education Abroad Search Blog Home Post on the Housing Board Archive Illinois Abroad Housing Board LOOKING TO SUBLET FOR FALL 2026 SEMESTER Oct 14, 2025 10:00 pm by Brooke"
+    }
+  ],
+  "no_email": [
+    {
+      "platform": "Craigslist",
+      "title": "Wonderful 2B/1B Apartment ~ Vinyl plank flooring ~ Great location!$1,195Champaig",
+      "url": "https://chambana.craigslist.org/apa/d/champaign-wonderful-2b-1b-apartment/7936117432.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "Save Big with Flexible Living Solutions!$1,1001212 Anthony Dr, Champaign, IL",
+      "url": "https://chambana.craigslist.org/apa/d/champaign-save-big-with-flexible-living/7935196964.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "2 Bedroom - Ranch Style Duplex - Available mid August$825Rantoul",
+      "url": "https://chambana.craigslist.org/apa/d/rantoul-bedroom-ranch-style-duplex/7936107031.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "3BR - Townhouse - W/D Hook-ups - AVAILABLE August$950Rantoul",
+      "url": "https://chambana.craigslist.org/apa/d/rantoul-3br-townhouse-d-hook-ups/7936098656.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "Exclusive Offer: Short-Term Stays with No Strings Attached!$3101212 Anthony Dr, ",
+      "url": "https://chambana.craigslist.org/apa/d/champaign-exclusive-offer-short-term/7936102164.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "1 Bedroom Updated Apartment - Very Spacious - Available mid-August$695Rantoul",
+      "url": "https://chambana.craigslist.org/apa/d/rantoul-bedroom-updated-apartment-very/7936094581.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "3 Bedroom Duplex - Basement - Available July$1,195Rantoul",
+      "url": "https://chambana.craigslist.org/apa/d/rantoul-bedroom-duplex-basement/7936088933.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "Exclusive Offer: Short-Term Stays with No Strings Attached!$3101212 Anthony Dr, ",
+      "url": "https://chambana.craigslist.org/apa/d/champaign-exclusive-offer-short-term/7935147074.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "Apartment Style Living Without the Commitment!$1,1001212 Anthony Dr, Champaign, ",
+      "url": "https://chambana.craigslist.org/apa/d/champaign-apartment-style-living/7936050357.html"
+    },
+    {
+      "platform": "Craigslist",
+      "title": "1 Bedroom Apartment - Heat Included - Available late-July$650Rantoul",
+      "url": "https://chambana.craigslist.org/apa/d/rantoul-bedroom-apartment-heat-included/7936034609.html"
+    }
+  ]
+}

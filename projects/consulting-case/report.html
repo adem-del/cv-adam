@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulting Case – EuroRetail Bank Profitability Analysis</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+  header { background: linear-gradient(135deg, #6366f1, #4f46e5); color: white; padding: 3rem 2rem; text-align: center; }
+  header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  header p { opacity: 0.85; }
+  section { background: white; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  h2 { font-size: 1.4rem; color: #6366f1; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e2e8f0; }
+  h3 { font-size: 1.1rem; margin: 1rem 0 0.5rem; }
+  p, li { line-height: 1.7; color: #475569; }
+  ul { padding-left: 1.5rem; }
+  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+  .chart-grid img { width: 100%; border-radius: 8px; border: 1px solid #e2e8f0; }
+  .full-chart { margin: 1.5rem 0; }
+  .full-chart img { width: 100%; border-radius: 8px; border: 1px solid #e2e8f0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+  th { background: #f1f5f9; font-weight: 600; color: #6366f1; }
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+  .kpi { background: #f8fafc; border-radius: 8px; padding: 1rem; text-align: center; border: 1px solid #e2e8f0; }
+  .kpi .value { font-size: 1.8rem; font-weight: bold; color: #6366f1; }
+  .kpi .label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-top: 0.25rem; }
+  .rec-card { background: #f0fdf4; border-left: 4px solid #22c55e; padding: 1rem; margin: 0.75rem 0; border-radius: 0 8px 8px 0; }
+  .risk-high { color: #ef4444; } .risk-med { color: #f59e0b; } .risk-low { color: #22c55e; }
+  footer { text-align: center; padding: 2rem; color: #94a3b8; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Profitability Analysis: EuroRetail Bank</h1>
+  <p>Strategy Consulting Case Study · Adem Taleb · WU Vienna</p>
+</header>
+<div class="container">
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="value">€6.2B</div><div class="label">Revenue 2025</div></div>
+    <div class="kpi"><div class="value">8.2%</div><div class="label">Net Profit Margin</div></div>
+    <div class="kpi"><div class="value">9.8%</div><div class="label">ROE</div></div>
+    <div class="kpi"><div class="value">68.5%</div><div class="label">Cost-Income Ratio</div></div>
+  </div>
+
+  <section>
+    <h2>1. Executive Summary</h2>
+    <p>EuroRetail Bank zeigt solide, aber verbesserungswürdige Kennzahlen. Mit einer Net Profit Margin von 8,2% liegt das Institut unter dem Branchenmedian von 10,9%. Die Cost-Income Ratio von 68,5% ist zu hoch — Top-Performer erreichen &lt;55%.</p>
+    <p>Die Analyse identifiziert drei Hebel: <strong>Digital Expansion</strong> (€300M Profit-Potenzial), <strong>Cost Optimization</strong> (€150M), und <strong>M&A Synergies</strong> (€400M bei hohem Risiko).</p>
+  </section>
+
+  <section>
+    <h2>2. Segment Profitability</h2>
+    <div class="chart-grid">
+      <img src="output/chart1_revenue_trend.png" alt="Revenue Trends">
+      <img src="output/chart2_profit_heatmap.png" alt="Profit Heatmap">
+    </div>
+    <table>
+      <tr><th>Segment</th><th>Revenue 2025</th><th>Profit 2025</th><th>Margin</th></tr>
+      <tr><td>Retail Banking</td><td>€2254M</td><td>€744M</td><td>33.0%</td></tr><tr><td>Corporate Banking</td><td>€1270M</td><td>€442M</td><td>34.8%</td></tr><tr><td>Wealth Management</td><td>€2929M</td><td>€726M</td><td>24.8%</td></tr><tr><td>Investment Banking</td><td>€2582M</td><td>€827M</td><td>32.0%</td></tr>
+    </table>
+    <p>Wealth Management ist mit Abstand das profitabelste Segment (höchste Marge). Retail Banking generiert das meiste Volumen, aber bei geringerer Marge.</p>
+  </section>
+
+  <section>
+    <h2>3. Regional Performance</h2>
+    <div class="full-chart"><img src="output/chart5_regional.png" alt="Regional Revenue"></div>
+    <p>Der Heimatmarkt Österreich sowie Deutschland tragen den Großteil zum Umsatz bei. CE und SEE Europe bieten Wachstumspotenzial bei niedrigerer Marktdurchdringung.</p>
+  </section>
+
+  <section>
+    <h2>4. Competitive Benchmarking</h2>
+    <div class="full-chart"><img src="output/chart3_benchmark.png" alt="Benchmark"></div>
+    <table>
+      <tr><th>Bank</th><th>Net Profit Margin</th><th>ROE</th><th>Cost-Income Ratio</th><th>NIM</th></tr>
+      <tr><td>EuroRetail Bank</td><td>8.2%</td><td>9.8%</td><td>68.5%</td><td>1.85%</td></tr><tr><td>Competitor A</td><td>12.5%</td><td>14.2%</td><td>58.2%</td><td>2.1%</td></tr><tr><td>Competitor B</td><td>6.8%</td><td>7.5%</td><td>72.1%</td><td>1.65%</td></tr><tr><td>Competitor C</td><td>15.2%</td><td>17.1%</td><td>52.4%</td><td>2.45%</td></tr><tr><td>Competitor D</td><td>9.1%</td><td>11.3%</td><td>64.8%</td><td>1.95%</td></tr>
+    </table>
+    <p>EuroRetail liegt im unteren Mittelfeld. Competitor C (15,2% Marge, 52,4% CIR) zeigt, was möglich ist — primär durch Digitalisierung und schlanke Prozesse.</p>
+  </section>
+
+  <section>
+    <h2>5. What-If Scenarios</h2>
+    <div class="full-chart"><img src="output/chart4_scenario.png" alt="Scenarios"></div>
+    <table>
+      <tr><th>Szenario</th><th>Revenue Impact</th><th>Cost Impact</th><th>Profit Impact</th><th>Risiko</th></tr>
+      <tr><td>Base Case</td><td>+0M</td><td>+0M</td><td><strong>+0M</strong></td><td>—</td></tr><tr><td>Digital Expansion</td><td>+180M</td><td>-120M</td><td><strong>+300M</strong></td><td>Medium</td></tr><tr><td>Cost Optimization</td><td>-50M</td><td>-200M</td><td><strong>+150M</strong></td><td>Low</td></tr><tr><td>M&A Synergies</td><td>+320M</td><td>-80M</td><td><strong>+400M</strong></td><td>High</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>6. Recommendations</h2>
+    <div class="rec-card">
+      <h3>📱 Digital Expansion (Priority)</h3>
+      <p>Invest €120M in digitale Plattformen und App-Infrastruktur. Ziel: Reduzierung der Cost-Income Ratio auf 60% innerhalb von 3 Jahren. Hebelwirkung: €300M zusätzlicher Nettogewinn.</p>
+    </div>
+    <div class="rec-card">
+      <h3>✂️ Cost Optimization</h3>
+      <p>Prozessoptimierung und Filial-Netzwerk-Reduktion um 15%. Kosteneinsparung von €200M bei einmaligem Transformationsaufwand von €50M.</p>
+    </div>
+    <div class="rec-card">
+      <h3>🤝 M&A Synergies (langfristig)</h3>
+      <p>Akquisition eines Fintechs oder Regionalbank in SEE Europe. Höchstes Potenzial (€400M), aber auch höchstes Implementierungsrisiko.</p>
+    </div>
+  </section>
+
+</div>
+<footer>
+  <p>Case Study · Adem Taleb · WU Wien · 2026</p>
+</footer>
+</body>
+</html>
