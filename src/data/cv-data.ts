@@ -5,10 +5,9 @@ export const cvData: CvData = {
   title: "WU Student | Finance, Controlling & Data",
   subtitle: "Verfügbar ab Jänner 2027 · B.Sc. WU Wien · Exchange @ UIUC Gies College Fall 2026",
   about: [
-    "Wirtschaftsstudent an der WU Wien mit Studienzweig Internationale Betriebswirtschaft und Spezialisierung in Information Management Control. Aktueller Notenschnitt: 1,98.",
-    "Ab Herbst 2026 als Exchange Student am Gies College of Business der University of Illinois at Urbana-Champaign mit Fokus auf Corporate Finance, Investment & Portfolio Management, Data Analytics und Logistics Management.",
-    "Praktische Erfahrung in Projektfinanzierung, Marktanalyse und administrativem Projektcontrolling bei der Banque Nationale Agricole de Tunisie (BNA) sowie jahrelange Erfahrung in Führungs- und Transformationsprozessen im Einzelhandel bei SPAR. Zudem aktives Dolmetschen (Arabisch, Französisch, Deutsch) für soziale Einrichtungen.",
-    "Bachelorarbeit als Event Study zu den Kapitalmarkteffekten des Digital Euro auf europäische Bankaktien. Zertifikate in Informatik (CS50, Harvard) und SAP S/4HANA."
+    "Wirtschaftsstudent an der WU Wien im Studienzweig Internationale Betriebswirtschaft mit Spezialisierung in Information Management Control und aktuellem Notenschnitt von 1,98. Ab Herbst 2026 Exchange Student am Gies College of Business der University of Illinois Urbana-Champaign mit Fokus auf Corporate Finance, Investment & Portfolio Management, Data Analytics und Logistics Management.",
+    "Praktische Erfahrung in Projektfinanzierung, Marktanalyse und administrativem Projektcontrolling bei der Banque Nationale Agricole de Tunisie sowie mehrjährige Erfahrung in operativen Führungs- und Transformationsprozessen im Einzelhandel bei SPAR. Ergänzend bringe ich interkulturelle Kommunikationsstärke durch Dolmetschtätigkeiten in Arabisch, Französisch und Deutsch für soziale Einrichtungen mit.",
+    "Meine Bachelorarbeit untersucht in einer Event Study die Kapitalmarkteffekte von Digital-Euro-Ankündigungen auf europäische Bankaktien. Zusätzlich verfüge ich über Zertifikate in Informatik (Harvard CS50) und SAP S/4HANA."
   ],
   education: [
     {
