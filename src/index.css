@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Class-based dark mode für ThemeToggle */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-accent: #2563eb;
+  --color-accent-light: #60a5fa;
+  --color-accent-dark: #1d4ed8;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply antialiased;
+  }
+  ::selection {
+    @apply bg-accent/20 text-accent-dark dark:text-accent-light;
+  }
+}
+
+@layer utilities {
+  .section-fade {
+    @apply opacity-0 translate-y-4 transition-all duration-700 ease-out;
+  }
+  .section-fade.visible {
+    @apply opacity-100 translate-y-0;
+  }
+}
