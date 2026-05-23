@@ -17,18 +17,23 @@ export default function Header() {
             B.Sc. Wirtschaftsuniversität Wien
           </div>
 
-          {/* Name + Title */}
+          {/* Name */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9]">
             <span className="text-slate-900 dark:text-white">{name}</span>
           </h1>
 
-          <p className="mt-6 text-xl md:text-2xl font-medium text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl">
+          {/* Title line */}
+          <p className="mt-5 text-xl md:text-2xl font-medium text-accent">
             {title}
           </p>
-          <p className="mt-2 text-base md:text-lg text-slate-400 dark:text-slate-500">{subtitle}</p>
+
+          {/* Subtitle with availability */}
+          <p className="mt-2 text-base md:text-lg text-slate-500 dark:text-slate-400 max-w-xl">
+            {subtitle}
+          </p>
 
           {/* Stats row */}
-          <div className="mt-10 flex flex-wrap gap-8">
+          <div className="mt-8 flex flex-wrap gap-8">
             <div>
               <p className="text-2xl font-bold text-slate-900 dark:text-white">1,98</p>
               <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">Notenschnitt</p>
@@ -40,8 +45,8 @@ export default function Header() {
             </div>
             <div className="w-px h-10 bg-slate-200 dark:bg-slate-700 self-end" />
             <div>
-              <p className="text-2xl font-bold text-slate-900 dark:text-white">7+</p>
-              <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">Jahre Berufserfahrung</p>
+              <p className="text-2xl font-bold text-slate-900 dark:text-white">Praxis seit 2018</p>
+              <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">Arbeitserfahrung</p>
             </div>
           </div>
 
@@ -53,6 +58,16 @@ export default function Header() {
             >
               Erfahrung entdecken
               <span className="inline-block ml-2 transition-transform group-hover:translate-x-1">→</span>
+            </a>
+            <a
+              href="/cv.pdf"
+              download
+              className="px-6 py-3 rounded-xl border-2 border-accent text-accent font-medium hover:bg-accent/5 transition-all active:scale-[0.97] flex items-center gap-2"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Lebenslauf (PDF)
             </a>
             <a
               href="#contact"
