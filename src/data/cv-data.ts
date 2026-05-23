@@ -88,9 +88,9 @@ export const cvData: CvData = {
   ],
   projects: [
     {
-      name: "Digital Euro Event Study",
-      description: "Bachelorarbeit: Market Reactions to Digital Euro Announcements — eine Event Study zu den Kapitalmarkteffekten von Digital-Euro-Ankündigungen auf europäische Bankaktien.",
-      tags: ["Finance", "Event Study", "Digital Euro", "Kapitalmärkte"]
+      name: "Digital Euro — Event Study & Dashboard",
+      description: "Bachelorarbeit zu den Kapitalmarkteffekten von Digital-Euro-Ankündigungen auf europäische Bankaktien inkl. interaktivem Dashboard mit CAR-Charts, Ereignis-Timeline und Methodik.",
+      tags: ["Finance", "Event Study", "React", "Recharts", "Dashboard"]
     },
     {
       name: "CS50 — Introduction to Computer Science",
@@ -101,11 +101,6 @@ export const cvData: CvData = {
       name: "Interactive CV",
       description: "Ein interaktiver, KI-gestützter Lebenslauf, gebaut mit React 19, TypeScript und Tailwind.",
       tags: ["React", "TypeScript", "Tailwind", "AI"]
-    },
-    {
-      name: "Digital Euro Event Study Dashboard",
-      description: "Interaktives Dashboard zur Visualisierung der Event-Study-Ergebnisse der Bachelorarbeit: CAR-Charts, Ereignis-Timeline, Banken-Portfolio und Methodik-Erklärung.",
-      tags: ["React", "Recharts", "Event Study", "Finance", "Dashboard"]
     },
     {
       name: "Consulting Case: Profitability Analysis",
