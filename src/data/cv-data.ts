@@ -88,24 +88,24 @@ export const cvData: CvData = {
   projects: [
     {
       name: "Digital Euro — Event Study & Dashboard",
-      description: "Bachelorarbeit zu den Kapitalmarkteffekten von Digital-Euro-Ankündigungen auf europäische Bankaktien inkl. interaktivem Dashboard mit CAR-Charts, Ereignis-Timeline und Methodik.",
+      description: "Interaktives Dashboard zur Visualisierung der Event-Study-Ergebnisse meiner Bachelorarbeit. Analysiert die Kapitalmarktreaktionen europäischer Bankaktien auf Digital-Euro-Ankündigungen mit CAR-Charts, einer interaktiven Ereignis-Timeline von 2020–2026 und detaillierter Methodik-Erklärung. Gebaut mit React, Recharts und Tailwind.",
       tags: ["Finance", "Event Study", "React", "Recharts", "Dashboard"],
       link: "https://digital-euro-dashboard.vercel.app"
     },
     {
       name: "CS50 — Introduction to Computer Science",
-      description: "Harvard University (edX) Zertifikatskurs mit Fokus auf algorithmisches Denken und Programmierung in C, Python, SQL und JavaScript.",
+      description: "Fundierter Einstieg in die Informatik an der Harvard University (edX). Behandelt algorithmisches Denken und praktische Programmierung in C, Python, SQL und JavaScript. Abgeschlossen mit einer eigenen Webanwendung als Abschlussprojekt.",
       tags: ["C", "Python", "SQL", "JavaScript", "Algorithmen"]
     },
     {
       name: "Interactive CV",
-      description: "Ein interaktiver, KI-gestützter Lebenslauf, gebaut mit React 19, TypeScript und Tailwind.",
-      tags: ["React", "TypeScript", "Tailwind", "AI"],
+      description: "Moderne, interaktive CV-Website mit Dark Mode, responsivem Design und integriertem KI-Chat-Assistenten, der Fragen zu meinem Werdegang beantwortet. Automatisierte CI/CD-Pipeline via GitHub und Vercel.",
+      tags: ["React", "TypeScript", "Tailwind", "AI", "CI/CD"],
       link: "https://cv-adem.vercel.app"
     },
     {
       name: "Consulting Case: Profitability Analysis",
-      description: "Python-gestützte Strategieanalyse einer europäischen Retail Bank. Segmentanalyse, Competitive Benchmarking, What-If-Szenarien und automatisierter HTML-Report.",
+      description: "Strategische Profitabilitätsanalyse einer europäischen Retail Bank mit Python. Umfasst Segmentanalyse, regionales Performance-Breakdown, Competitive Benchmarking gegen 4 Wettbewerber und 3 What-If-Szenarien (Digital Expansion, Cost Optimization, M&A). Automatisch generierter HTML-Consulting-Report mit 5 Charts.",
       tags: ["Python", "Pandas", "Matplotlib", "Data Analysis", "Consulting"],
       link: "https://consulting-case-profitability.vercel.app"
     }
