@@ -16,13 +16,11 @@ export default function Navbar() {
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 60);
-
-      // Find active section
       const sections = NAV_ITEMS.map(item => document.getElementById(item.id)).filter(Boolean);
       for (let i = sections.length - 1; i >= 0; i--) {
         const el = sections[i]!;
         const rect = el.getBoundingClientRect();
-        if (rect.top <= 150) {
+        if (rect.top <= 200) {
           setActive(NAV_ITEMS[i].id);
           break;
         }
@@ -40,7 +38,7 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-30 transition-all duration-300 ${
         scrolled
-          ? 'bg-white/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm border-b border-slate-200 dark:border-slate-800'
+          ? 'bg-white/75 dark:bg-slate-950/75 backdrop-blur-xl border-b border-slate-200/50 dark:border-slate-800/50 shadow-sm'
           : 'bg-transparent'
       }`}
     >
@@ -48,19 +46,19 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-14">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="text-sm font-semibold text-accent hover:text-accent-dark transition-colors"
+            className="text-sm font-bold text-accent hover:text-accent-dark transition-colors tracking-tight"
           >
-            AT
+            AT<span className="text-accent-light">.</span>
           </button>
           <div className="hidden sm:flex gap-1">
             {NAV_ITEMS.map(item => (
               <button
                 key={item.id}
                 onClick={() => scrollTo(item.id)}
-                className={`px-3 py-1.5 text-sm rounded-lg transition-colors ${
+                className={`px-3 py-1.5 text-sm rounded-lg transition-all ${
                   active === item.id
-                    ? 'text-accent font-medium bg-accent/10'
-                    : 'text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800'
+                    ? 'text-accent font-medium bg-accent/8 dark:bg-accent/12'
+                    : 'text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800/50'
                 }`}
               >
                 {item.label}
