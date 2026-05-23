@@ -2,8 +2,8 @@ import type { CvData } from '../types';
 
 export const cvData: CvData = {
   name: "Adem Taleb",
-  title: "Wirtschaftsuniversität Wien (WU)",
-  subtitle: "B.Sc. Wirtschaft & Sozialwissenschaften · Exchange Student @ UIUC Gies College · Fall 2026",
+  title: "WU Student | Finance, Controlling & Data",
+  subtitle: "Verfügbar ab Jänner 2027 · B.Sc. WU Wien · Exchange @ UIUC Gies College Fall 2026",
   about: [
     "Wirtschaftsstudent an der WU Wien mit Studienzweig Internationale Betriebswirtschaft und Spezialisierung in Information Management Control. Aktueller Notenschnitt: 1,98.",
     "Ab Herbst 2026 als Exchange Student am Gies College of Business der University of Illinois at Urbana-Champaign mit Fokus auf Corporate Finance, Investment & Portfolio Management, Data Analytics und Logistics Management.",
@@ -45,7 +45,7 @@ export const cvData: CvData = {
       company: "Banque Nationale Agricole de Tunisie (BNA)",
       role: "Praktikant Projektfinanzierung & Marktanalyse — ELMED-Projekt",
       period: "06/2026 – 07/2026",
-      description: "Geplantes Praktikum im Bereich Projektfinanzierung und Marktanalyse.",
+      description: "Bestätigtes Praktikum im Bereich Projektfinanzierung und Marktanalyse.",
       highlights: [
         "Eigenständige Identifikation und Aufbereitung marktrelevanter Daten zu Förderinstrumenten im tunesischen Sektor als Entscheidungsgrundlage",
         "Strukturierte, visuelle Aufbereitung komplexer Analyseergebnisse zur effizienten Abstimmung mit internationalen Projektpartnern",
@@ -90,7 +90,8 @@ export const cvData: CvData = {
     {
       name: "Digital Euro — Event Study & Dashboard",
       description: "Bachelorarbeit zu den Kapitalmarkteffekten von Digital-Euro-Ankündigungen auf europäische Bankaktien inkl. interaktivem Dashboard mit CAR-Charts, Ereignis-Timeline und Methodik.",
-      tags: ["Finance", "Event Study", "React", "Recharts", "Dashboard"]
+      tags: ["Finance", "Event Study", "React", "Recharts", "Dashboard"],
+      link: "https://digital-euro-dashboard.vercel.app"
     },
     {
       name: "CS50 — Introduction to Computer Science",
@@ -100,12 +101,14 @@ export const cvData: CvData = {
     {
       name: "Interactive CV",
       description: "Ein interaktiver, KI-gestützter Lebenslauf, gebaut mit React 19, TypeScript und Tailwind.",
-      tags: ["React", "TypeScript", "Tailwind", "AI"]
+      tags: ["React", "TypeScript", "Tailwind", "AI"],
+      link: "https://cv-adem.vercel.app"
     },
     {
       name: "Consulting Case: Profitability Analysis",
       description: "Python-gestützte Strategieanalyse einer europäischen Retail Bank. Segmentanalyse, Competitive Benchmarking, What-If-Szenarien und automatisierter HTML-Report.",
-      tags: ["Python", "Pandas", "Matplotlib", "Data Analysis", "Consulting"]
+      tags: ["Python", "Pandas", "Matplotlib", "Data Analysis", "Consulting"],
+      link: "https://consulting-case-profitability.vercel.app"
     }
   ],
   skills: [
@@ -115,22 +118,26 @@ export const cvData: CvData = {
     },
     {
       category: "Technisch",
-      items: ["Linux", "AI-Tools (Ollama, Claude Code, OpenClaw)", "VPS-Management", "MS Excel (Advanced)", "SAP S/4HANA"]
+      items: ["Linux", "AI-Tools (Ollama, Claude Code)", "VPS-Management", "SAP S/4HANA (Grundlagen)"]
     },
     {
       category: "Programmierung",
-      items: ["Python", "SQL", "JavaScript", "C", "React/TypeScript"]
+      items: ["Python (Intermediate)", "SQL", "JavaScript (Intermediate)", "React/TypeScript", "C (Grundlagen)"]
+    },
+    {
+      category: "Tools",
+      items: ["MS Excel (Advanced)", "Power BI", "Git", "VSCode", "Jupyter"]
     },
     {
       category: "Soft Skills",
-      items: ["Change-Management", "Interkulturelle Kommunikation", "Strategische Verhandlungsführung", "Dolmetschen"]
+      items: ["Change-Management", "Interkulturelle Kommunikation", "Strategische Verhandlungsführung", "Dolmetschen (3 Sprachen)"]
     }
   ],
   languages: [
     { language: "Deutsch", level: "Muttersprache" },
     { language: "Arabisch", level: "Muttersprache" },
-    { language: "Englisch", level: "Verhandlungssicher" },
-    { language: "Französisch", level: "Fortgeschritten" }
+    { language: "Englisch", level: "Verhandlungssicher (C1)" },
+    { language: "Französisch", level: "Fortgeschritten (B2)" }
   ],
   contact: {
     email: "ademttaleb@gmail.com",
