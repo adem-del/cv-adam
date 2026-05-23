@@ -98,29 +98,19 @@ export const cvData: CvData = {
       tags: ["C", "Python", "SQL", "JavaScript", "Algorithmen"]
     },
     {
-      name: "Interactive CV — Jeff",
-      description: "Dieses Projekt — ein interaktiver, KI-gestützter Lebenslauf, gebaut mit React 19, TypeScript und Tailwind.",
+      name: "Interactive CV",
+      description: "Ein interaktiver, KI-gestützter Lebenslauf, gebaut mit React 19, TypeScript und Tailwind.",
       tags: ["React", "TypeScript", "Tailwind", "AI"]
     },
     {
       name: "Digital Euro Event Study Dashboard",
-      description: "Interaktives Dashboard zur Visualisierung der Event-Study-Ergebnisse der Bachelorarbeit: CAR-Charts, Ereignis-Timeline, Banken-Portfolio und Methodik-Erklärung. React + Recharts.",
+      description: "Interaktives Dashboard zur Visualisierung der Event-Study-Ergebnisse der Bachelorarbeit: CAR-Charts, Ereignis-Timeline, Banken-Portfolio und Methodik-Erklärung.",
       tags: ["React", "Recharts", "Event Study", "Finance", "Dashboard"]
-    },
-    {
-      name: "UIUC Housing Dashboard",
-      description: "Dashboard zur Verwaltung und Analyse gescraptter Wohnungsinserate für das UIUC-Auslandssemester. Mit KPI-Übersicht, Filterung, Volltext-Suche und Detail-Modal.",
-      tags: ["React", "TypeScript", "Tailwind", "Dashboard", "Web Scraping"]
     },
     {
       name: "Consulting Case: Profitability Analysis",
       description: "Python-gestützte Strategieanalyse einer europäischen Retail Bank. Segmentanalyse, Competitive Benchmarking, What-If-Szenarien und automatisierter HTML-Report.",
       tags: ["Python", "Pandas", "Matplotlib", "Data Analysis", "Consulting"]
-    },
-    {
-      name: "UIUC Housing Dashboard",
-      description: "Dashboard zur Verwaltung und Analyse gescrapter Wohnungsinserate für das UIUC-Auslandssemester. Mit KPI-Übersicht, Echtzeit-Filterung, Volltext-Suche und Detail-Modal. Daten aus eigenem Python-Scraper.",
-      tags: ["React", "TypeScript", "Tailwind", "Dashboard", "Web Scraping"]
     }
   ],
   skills: [

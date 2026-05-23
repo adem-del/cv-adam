@@ -17,7 +17,7 @@ deploy_project() {
   
   echo "📦 Deploye $dir → $repo"
   
-  cd /root/.openclaw/workspace/cv-adam/projects/$dir
+  cd /root/.openclaw/workspace/cv-adem/projects/$dir
   
   # Git initialisieren falls nicht vorhanden
   if [ ! -d .git ]; then
@@ -33,7 +33,7 @@ deploy_project() {
   
   echo ""
   echo "   🔗 So pushen:"
-  echo "   cd /root/.openclaw/workspace/cv-adam/projects/$dir"
+  echo "   cd /root/.openclaw/workspace/cv-adem/projects/$dir"
   echo "   git push -u origin main"
   echo ""
   echo "   ⚡ Danach auf https://vercel.com/new importieren"
