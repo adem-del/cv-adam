@@ -3,7 +3,10 @@ import { useEffect, useState } from 'react';
 export default function ThemeToggle() {
   const [dark, setDark] = useState(() => {
     if (typeof window === 'undefined') return false;
-    return document.documentElement.classList.contains('dark');
+    // Check localStorage first, then system preference
+    const stored = localStorage.getItem('theme');
+    if (stored) return stored === 'dark';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
 
   useEffect(() => {
@@ -13,13 +16,14 @@ export default function ThemeToggle() {
     } else {
       root.classList.remove('dark');
     }
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
   }, [dark]);
 
   return (
     <button
       onClick={() => setDark(!dark)}
       className="fixed top-4 right-4 z-50 p-2 rounded-xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700 hover:bg-white dark:hover:bg-slate-700 transition-all shadow-sm hover:shadow-md active:scale-95"
-      aria-label="Toggle dark mode"
+      aria-label={dark ? 'Helles Design aktivieren' : 'Dunkles Design aktivieren'}
     >
       {dark ? (
         <svg className="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 24 24">

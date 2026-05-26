@@ -38,7 +38,7 @@ export default function Section({ id, title, children, className = '', alt = fal
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`fade-section ${visible ? 'visible' : ''}`}>
           <div className="mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white text-balance">
               {title}
             </h2>
             <div className="mt-3 w-12 h-1 rounded-full bg-gradient-to-r from-accent to-accent-light" />
