@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
-import ShutterReveal from './ShutterReveal';
 
 interface SectionProps {
   id: string;
@@ -31,7 +30,6 @@ export default function Section({ id, title, children, className = '', alt = fal
       ([entry]) => {
         if (entry.isIntersecting) {
           setVisible(true);
-          // Animate the line: 0 → 48px over 800ms
           const start = performance.now();
           const animate = (now: number) => {
             const t = Math.min((now - start) / 800, 1);
@@ -58,10 +56,13 @@ export default function Section({ id, title, children, className = '', alt = fal
       className={`py-24 md:py-32 relative ${alt ? 'bg-surface dark:bg-slate-900/40' : ''} ${className}`}
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section header */}
+        {/* Section header — animate up + fade */}
         <div className="mb-12">
-          <div className={`flex items-start gap-4 transition-all duration-700 ease-out
-            ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+          <div
+            className={`flex items-start gap-4 transition-all duration-600 ease-out ${
+              visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+            }`}
+          >
             <span className="hidden sm:block text-[clamp(3rem,6vw,5rem)] font-bold leading-none tracking-tighter
               bg-gradient-to-b from-accent/20 to-transparent bg-clip-text text-transparent select-none">
               {sectionNum}
@@ -80,13 +81,15 @@ export default function Section({ id, title, children, className = '', alt = fal
           </div>
         </div>
 
-        {/* Shutter-revealed content */}
-        <ShutterReveal sliceCount={8} duration={0.9} stagger={0.05}>
-          <div className={`transition-all duration-700 delay-500 ease-out
-            ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-            {children}
-          </div>
-        </ShutterReveal>
+        {/* Children — staggered fade-up */}
+        <div
+          className={`transition-all duration-700 ease-out ${
+            visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+          }`}
+          style={{ transitionDelay: visible ? '150ms' : '0ms' }}
+        >
+          {children}
+        </div>
       </div>
     </section>
   );
